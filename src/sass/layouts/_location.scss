@@ -4,6 +4,7 @@
     $background-light-pink 78px
   );
 }
+
 .location .container {
   // position: relative;
 }
@@ -11,7 +12,7 @@
   // position: relative;
   // top: -84px;
   margin: 0 auto;
-  max-width: 320px;
+  // max-width: 320px;
   padding-left: 50px;
   padding-right: 50px;
   margin-bottom: 54px;
@@ -119,6 +120,12 @@
   stroke: $white-color;
   height: 10px;
   width: 6px;
+}
+
+@media screen and (max-width: 767px) {
+  .location-list-item-container {
+    max-width: 320px;
+  }
 }
 @media screen and (min-width: 768px) {
   .location {
