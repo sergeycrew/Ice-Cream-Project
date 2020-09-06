@@ -121,6 +121,12 @@
   height: 10px;
   width: 6px;
 }
+
+@media screen and (max-width: 767px) {
+  .location-list-item-container {
+    max-width: 320px;
+  }
+}
 @media screen and (min-width: 768px) {
   .location {
     background-image: linear-gradient(
