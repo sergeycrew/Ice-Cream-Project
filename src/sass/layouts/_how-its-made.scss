@@ -15,7 +15,13 @@
     }
   }
 }
-
+.main-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 320px;
+}
 .title-h-i-m {
   margin-bottom: 26px;
   font-family: $title-font-family;
@@ -44,12 +50,12 @@
   color: $dark-pink-color;
 }
 
-.cow-image {
-  // margin-left: auto;
-  // margin-right: auto;
-  margin-bottom: 46px;
-  // width: 100%;
-}
+// .cow-image {
+//   // margin-left: auto;
+//   // margin-right: auto;
+//   margin-bottom: 46px;
+//   // width: 100%;
+// }
 
 .main-description {
   // width: 220px;
@@ -121,7 +127,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .cow-image {
+  .cow-how-its-made-picture {
     // margin-left: auto;
     // margin-right: auto;
     margin-bottom: 46px;
@@ -139,8 +145,9 @@
 
   .main-wrapper {
     display: flex;
-    padding-left: 15px;
-    padding-right: 16px;
+    padding-left: 39px;
+    padding-right: 36px;
+    max-width: 768px;
   }
 
   .secondary-wrapper {
@@ -159,19 +166,20 @@
     line-height: 1.154;
   }
 
-  .cow-image {
-    width: 340px;
-    height: 339px;
-    // margin-right: 17px;
-    margin-bottom: 0;
-    // margin-left: 0;
-  }
+  // .cow-image {
+  //   // width: 340px;
+  //   // height: 339px;
+  //   // margin-right: 17px;
+  //   margin-bottom: 0;
+  //   // margin-left: 0;
+  // }
   .how-its-made-picture {
+    // width: 100%;
     margin-right: 17px;
   }
   .main-description {
     width: 340px;
-    height: 100px;
+
     margin-bottom: 28px;
     font-size: 14px;
     line-height: 1.76;
@@ -180,7 +188,7 @@
 
   .secondary-description {
     width: 340px;
-    height: 122px;
+
     margin-bottom: 11px;
 
     font-size: 14px;
@@ -210,8 +218,9 @@
   }
 
   .main-wrapper {
-    padding-left: 93px;
-    padding-right: 94px;
+    padding-left: 112px;
+    padding-right: 117px;
+    max-width: 1280px;
   }
 
   .secondary-wrapper {
@@ -232,12 +241,16 @@
     line-height: 1.133;
     letter-spacing: 0.04em;
   }
-
-  .cow-image {
-    width: 516px;
-    height: 516px;
+  .how-its-made-picture {
+    // width: 100%;
     margin-right: 74px;
   }
+
+  // .cow-image {
+  //   // width: 516px;
+  //   // height: 516px;
+  //   margin-right: 74px;
+  // }
 
   .main-description {
     width: 463px;
