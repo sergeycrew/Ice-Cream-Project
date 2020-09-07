@@ -1090,6 +1090,14 @@ h1 {
   }
 }
 
+.main-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 320px;
+}
+
 .title-h-i-m {
   margin-bottom: 26px;
   font-family: "Titan One", cursive;
@@ -1112,10 +1120,6 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   color: #ffa5ba;
-}
-
-.cow-image {
-  margin-bottom: 46px;
 }
 
 .main-description {
@@ -1173,7 +1177,7 @@ h1 {
 }
 
 @media screen and (max-width: 767px) {
-  .cow-image {
+  .cow-how-its-made-picture {
     margin-bottom: 46px;
   }
   .secondary-wrapper {
@@ -1190,8 +1194,9 @@ h1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-left: 15px;
-    padding-right: 16px;
+    padding-left: 39px;
+    padding-right: 36px;
+    max-width: 768px;
   }
   .secondary-wrapper {
     padding-top: 50px;
@@ -1206,15 +1211,11 @@ h1 {
     font-size: 26px;
     line-height: 1.154;
   }
-  .cow-image {
-    width: 340px;
-    height: 339px;
+  .how-its-made-picture {
     margin-right: 17px;
-    margin-bottom: 0;
   }
   .main-description {
     width: 340px;
-    height: 100px;
     margin-bottom: 28px;
     font-size: 14px;
     line-height: 1.76;
@@ -1222,7 +1223,6 @@ h1 {
   }
   .secondary-description {
     width: 340px;
-    height: 122px;
     margin-bottom: 11px;
     font-size: 14px;
     line-height: 176%;
@@ -1247,8 +1247,9 @@ h1 {
     padding-top: 125px;
   }
   .main-wrapper {
-    padding-left: 93px;
-    padding-right: 94px;
+    padding-left: 112px;
+    padding-right: 117px;
+    max-width: 1280px;
   }
   .secondary-wrapper {
     padding-top: 51px;
@@ -1265,9 +1266,7 @@ h1 {
     line-height: 1.133;
     letter-spacing: 0.04em;
   }
-  .cow-image {
-    width: 516px;
-    height: 516px;
+  .how-its-made-picture {
     margin-right: 74px;
   }
   .main-description {
@@ -1395,7 +1394,7 @@ h1 {
 
 @media screen and (max-width: 767px) {
   .how-its-made-numbers-cont {
-    width: 320px;
+    max-width: 320px;
     padding-top: 39px;
     padding-bottom: 246px;
   }
@@ -1403,7 +1402,6 @@ h1 {
 
 @media screen and (min-width: 768px) {
   .how-its-made-numbers-cont {
-    width: 772px;
     padding-left: 16px;
     padding-right: 56px;
     padding-top: 66px;
@@ -1888,6 +1886,9 @@ h1 {
         -ms-flex-pack: justify;
             justify-content: space-between;
     margin-bottom: 91px;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
   }
   .container-footer {
     width: 768px;
@@ -2077,7 +2078,6 @@ h1 {
 
 .location-list-item-container {
   margin: 0 auto;
-  max-width: 320px;
   padding-left: 50px;
   padding-right: 50px;
   margin-bottom: 54px;
@@ -2203,6 +2203,12 @@ h1 {
   stroke: #ffffff;
   height: 10px;
   width: 6px;
+}
+
+@media screen and (max-width: 767px) {
+  .location-list-item-container {
+    max-width: 320px;
+  }
 }
 
 @media screen and (min-width: 768px) {
