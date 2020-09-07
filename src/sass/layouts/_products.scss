@@ -58,7 +58,10 @@
 
 .products-list-img {
   position: absolute;
+  width: 100%;
+  left: 50%;
   top: -113px;
+  transform: translateX(-50%);
 }
 
 .card-pink {
