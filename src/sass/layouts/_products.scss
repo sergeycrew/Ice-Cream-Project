@@ -64,7 +64,8 @@
   position: absolute;
   width: 100%;
   left: 50%;
-  top: -113px;
+  // top: -113px;
+  bottom: 346px;
   transform: translateX(-50%);
 }
 
@@ -153,7 +154,8 @@
     }
   }
   .products-list-img {
-    top: -104px;
+    // top: -104px;
+    bottom: 363px;
   }
 
   .products-arrow-img {
@@ -203,7 +205,8 @@
   }
 
   .products-list-img {
-    top: -210px;
+    // top: -210px;
+    bottom: 400px;
   }
 
   .products-arrow-img {
