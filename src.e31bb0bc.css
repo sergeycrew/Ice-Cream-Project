@@ -85,7 +85,7 @@ h1 {
     text-align: center;
     transform: translateX(100%) scaleX(0);
     pointer-events: none;
-    transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 250ms linear;
     z-index: 100;
   }
   .header-drop-menu.is-open {
@@ -249,7 +249,7 @@ h1 {
     text-align: center;
     transform: translateX(100%) scaleX(0);
     pointer-events: none;
-    transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 250ms linear;
     z-index: 100;
   }
   .header-drop-menu.is-open {
@@ -816,9 +816,16 @@ h1 {
   margin-bottom: 30px;
 }
 
+.poroducts-img {
+  display: inline;
+}
+
 .products-list-img {
   position: absolute;
-  top: -113px;
+  width: 100%;
+  left: 50%;
+  bottom: 346px;
+  transform: translateX(-50%);
 }
 
 .card-pink {
@@ -903,8 +910,7 @@ h1 {
   }
 
   .products-list-img {
-    top: -104px;
-    left: 0px;
+    bottom: 363px;
   }
 
   .products-arrow-img {
@@ -950,7 +956,7 @@ h1 {
   }
 
   .products-list-img {
-    top: -210px;
+    bottom: 400px;
   }
 
   .products-arrow-img {
